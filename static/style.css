@@ -1,0 +1,379 @@
+/* background color : #F8EBCF;
+ heading-text-color:#3E2922;
+ div-color:#E57734;
+*/
+/*
+    font style for heading tag: ex- about us,etc.
+    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Pacifico&family=Protest+Riot&display=swap');
+    font-family: 'EB Garamond', serif;
+    font-family:  'Pacifico', 'cursive';
+    font-family: 'Protest Riot', sans-serif;
+*/
+/*
+   font style for content: ex-description
+  @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+ font-family: 'Lora', serif;
+*/
+
+
+/* 
+html: <button class="btn">Submit</button>
+css: .btn{
+        font-family: 'Lora', serif;
+        font-size: 22px;
+        height:34px;
+        width: 194px;
+        border:1.5px solid #E57734;
+        color:white;
+        background-color: #3e2922;
+        box-shadow: 2px 2px 2px 0 #4d001f;
+    }
+    .btn:hover{
+        background-color:#ef7743;
+        border:2px solid #4d001f;
+        transition:1.5s;
+        border-radius:10px;
+        color:#3e2922;
+    }
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Pacifico&family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+body{
+    background-color: #F8EBCF;
+}
+.main{
+    width: 1478px;
+}
+.main .heading{
+    font-family: 'EB Garamond', serif;
+    font-family:  'Pacifico', 'cursive';
+    font-family: 'Protest Riot', sans-serif;
+    color:#3E2922;
+    text-align: center;
+    font-size: 45px;
+    position: relative;
+    top: 45px;
+    
+}
+p{
+    font-family: 'Lora', serif;
+    color:#3E2922;
+    text-align: center;
+    font-size:20px;
+ 
+}
+.main .slowgan{
+    color:#3E2922;
+    font-weight: 600;
+}
+.main .gallary{
+    border: 1px solid #3E2922 ;    
+    background-image: url(static/img/logo1d.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    z-index: 5;
+}
+.main .gallary img{
+    background-color: #F8EBCF;
+    border: 1px solid #3E2922 ;
+    height: 400px;
+    padding: 10px 10px;
+}
+
+.main .heading2{
+    font-family: 'EB Garamond', serif;
+    font-family:  'Pacifico', 'cursive';
+    font-family: 'Protest Riot', sans-serif;
+    color:#3E2922;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.main .wlcm{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    height: 500px;
+    width: 800px;
+   
+}
+.main .wlcm1{
+    width: 900px;
+    height: 500px;
+    margin: 94px 80px;
+    padding-top: 50px;
+}
+.main .wlcm .wlcm-des{
+    font-size: 40px;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    padding-top: 50px;
+}
+.main .wlcm1 .wlcm-des1{
+    font-size: 25px;
+    font-family: 'Lora', serif;
+    padding-top: 50px;
+}
+.btn{
+    
+    font-family: 'Lora', serif;
+    font-size: 22px;
+    height:34px;
+    width: 194px;
+    border:1.5px solid #ef7743;
+    color:white;
+    background-color:#3e2922 ;
+    box-shadow: 2px 2px 2px 0 #4d001f;
+    margin-top: 30px;
+    
+}
+.btn:hover{
+    background-color:#ef7743;
+    border:2px solid #4d001f;
+    transition:1.5s;
+    border-radius:10px;
+    color:#3e2922;
+}
+.main .wlcm2{
+    width: 80px;
+    height: 500px;
+   margin: 80px 0px;
+ 
+}
+.heading3{
+    font-family: 'EB Garamond', serif;
+    font-family:  'Pacifico', 'cursive';
+    font-family: 'Protest Riot', sans-serif;
+    color:#3E2922;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+.main .category-box{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    font-family: 'Lora', serif;
+    display: inline-block;
+    margin: 20px 40px;
+    border: 2px solid rgb(51, 49, 49);
+    padding: 20px 20px;
+    font-size: 18px;
+    text-align: center;
+    color:#3E2922;
+}
+.img:hover{
+    box-shadow: 0 0 6px 3px #3E2922;
+   
+}
+.img1{
+    font-family: 'Lora', serif;
+    display:inline-block;
+    margin: 20px 40px;
+    border: 2px solid rgb(51, 49, 49);
+    padding: 20px 20px;
+    font-size: 18px;
+    text-align: center;
+    color:#3E2922;
+}
+.img1:hover{
+    box-shadow: 0 0 6px 3px #3E2922;
+}
+
+.rv{
+    display: flex;
+    flex-direction: row;
+}
+.main .rv .rv-d{
+    width: 300px;
+    height: 390px;
+    font-family: 'Lora', serif;
+    margin: 10px 15px;
+    border: 2px solid rgb(51, 49, 49);
+    padding: 20px 20px;
+    font-size: 18px;
+    text-align: center;
+    color:#3E2922;
+}
+.main .rv .rv-d .rv-des{
+    font-size: 14px;
+    text-align: start;
+}
+.main .rv .rv-d .rv-d2{
+    margin-bottom: -500px;
+}
+.main .rv .rv-d:hover{
+    transition: 1.5s;
+    margin-top: -15px;
+    box-shadow: 0 0 6px 3px #3E2922;
+}
+.main .social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -40px;
+}
+.main .social .social-icon{
+   padding: 50px 40px;
+}
+
+
+/* media query */
+@media screen and (min-width: 992px) and (max-width: 1300px) {
+    /* .navbar{
+        display: none;
+    } */
+    .main{
+        min-width: 993px;
+        max-width: 1300px;
+    }
+    .main .wlcm{
+        display: flex;
+        flex-direction: column;
+        height: 650px;
+        width: 350px;
+        margin-top: 220px;
+    }   
+    .main .wlcm1{
+        width: 500px;
+        height: 800px;
+        padding-top: 40px;
+        margin-left: 350px;
+    }
+    .main .wlcm1 .wlcm-des1{
+        font-size: 35px;
+    }
+    .main .wlcm2{
+        width: 150px;
+        height: 800px;
+        margin-top: 10px;
+        margin-left: 280px;
+    }
+        
+    .main .category-box{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        margin-left: 350px;
+    }
+    .heading3{
+        margin-top: 300px;
+    }
+    .rv{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        margin-left: 400px;
+    }
+    
+ }
+ @media screen and (min-width: 768px) and (max-width: 991px){
+    .main{
+        min-width: 768px;
+        max-width: 991px;
+    }
+    .main .wlcm{
+        display: flex;
+        flex-direction: column;
+        height: 650px;
+        width: 350px;
+        margin-top: 220px;
+    }   
+    .main .wlcm1{
+        width: 500px;
+        height: 800px;
+        padding-top: 40px;
+        margin-left: 300px;
+    }
+    .main .wlcm1 .wlcm-des1{
+        font-size: 35px;
+    }
+    .main .wlcm2{
+        width: 180px;
+        height: 800px;
+        margin-top: 10px;
+        margin-left: 200px;
+    }
+        
+    .main .category-box{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        margin-left: 260px;
+    }
+    .heading3{
+        margin-top: 300px;
+    }
+    .rv{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        margin-left: 300px;
+    }
+     
+ }
+ 
+@media screen and (min-width: 601px) and (max-width: 767px){
+    .main{
+        min-width: 601px;
+        max-width: 767px;
+    }
+    .main .wlcm{
+        display: flex;
+        flex-direction: column;
+        height: 650px;
+        width: 350px;
+        margin-top: 300px;
+    }   
+    .main .wlcm1{
+        width: 400px;
+        height: 800px;
+        padding-top: 40px;
+        margin-left: 200px;
+      
+    }
+    .main .wlcm1 .wlcm-des1{
+        font-size: 35px;
+    }
+    .main .wlcm2{
+        width: 180px;
+        height: 800px;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .main .cb{
+        margin-bottom: -260px;
+    }
+    .main .category-box{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        margin-left: 150px;
+    }
+    .heading3{
+        margin-top: 350px;        
+    }
+    .rv{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        margin-left: 200px;
+        margin-bottom: -300px;
+    
+    }
+    /* .navbar{
+        display: none;
+
+    } */
+   
+}
+

@@ -1,0 +1,163 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #3E2922;
+    height: 33px;
+    width: 1498px;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 3px 20px 22px 0px; 
+   
+}
+.logo{
+    background-color: #F8EBCF;
+    margin: 0px 0px;
+    height:40px;
+    border-radius: 20px;
+    padding-top: 2px;
+    margin-left: 5px;
+}
+.brand-name{
+    margin-left: -350px;
+    margin-top: 20px;
+    color:#E57734;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+}
+.navbar ul{
+    list-style: none; 
+}
+nav ul{
+    display: flex;
+    gap: 25px;   
+}
+.name{
+    color:#E57734;
+    font-family: 'Lora', serif;
+    padding-right: 18px;
+}
+.name:hover{
+    color: #ffffff;
+    font-weight: bolder;
+}
+.nav-n{
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    font-size: 22px;
+}
+.drw{
+    display: none;
+}
+#dw1{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: none;
+    position: fixed;
+    margin: 20px 0px;
+    margin-left: 0px;
+
+
+       }
+       .name1{
+    color:#E57734;
+    font-family: 'Lora', serif;
+    margin-top: 20%;
+    padding-right: 10px;
+    font-size: 3rem;
+    list-style: none;
+}
+.name1:hover{
+    color: #ffffff;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+}
+#cross{
+    font-size: 5rem;
+    color: red;
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 5%;
+}
+
+/* media query */
+@media screen and (min-width: 992px) and (max-width: 1300px) {
+    .navbar{
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .brand-name{
+        font-size: 15px;
+        margin-left: -350px;
+    }
+    nav ul{
+        display: flex;
+        gap: 15px;   
+    }
+    .nav-n{
+        padding-top: 6px;
+        font-size: 15px;
+    }
+    #Menu{
+        display: none;
+    }
+ }
+ @media screen and (min-width: 768px) and (max-width: 991px){
+    .navbar{
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .brand-name{
+        padding-top: 6px;
+        font-size: 13px;
+        margin-left: -200px;
+    }
+    nav ul{
+        display: flex;
+        gap: 8px;   
+    }
+    .nav-n{
+        /* padding-top: 10px;
+        font-size: 13px; */
+        display: none;
+
+    }  
+    #Menu{
+        display: none;
+    }
+ }
+ 
+@media screen and  (max-width: 767px){
+    .navbar{
+        min-width: 100%;
+        max-width: 100%;
+        position: fixed;
+    }
+    .brand-name{
+        text-align: center;
+        margin-left: 0px;
+        font-size: 20px;
+    }
+    nav ul{
+        display: flex;
+        gap: 1px;   
+    }
+    .nav-n{
+        /* padding-top: 10px;
+        font-size: 11px; */
+        display: none;
+    } 
+    .drw{
+        display: block;
+    }
+.logo{
+    display: none;
+}
+}
+

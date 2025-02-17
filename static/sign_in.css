@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Pacifico&family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+.sign_heading{
+    font-family: 'Protest Riot', sans-serif;
+    color:#3E2922;
+    margin: 60px 0px 0px 800px;
+    font-size: 45px;
+    position: relative;
+    top: 18px;
+}
+
+
+.sub-log{
+    height: 500px;
+    width: 400px;
+    background-color: #ea9159;
+    border-radius: 50px 0px 50px 0px;
+    margin: 50px 0px 80px 680px;
+    box-shadow: 2px 2px 7px 1px #4d001f;
+}
+
+.login-img{
+    height: 130px;
+    margin: 18px 0px 0px 140px;
+}
+
+.log-email{
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1.5px solid #787777;
+    height: 40px;
+    width: 250px;
+    margin: 20px 0px 10px 70px;
+    background-color: #f8f9f9;
+    font-family: 'Playfair Display', serif;
+    box-shadow: 2px 2px 6px 0 #4d001f;
+}
+
+
+.log-pass{
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1.5px solid #787777;
+    height: 40px;
+    width: 250px;
+    margin: 10px 0px 0px 70px;
+    background-color: #f8f9f9;
+    font-family: 'Playfair Display', serif;
+    box-shadow: 2px 2px 6px 0 #4d001f;
+}
+
+.forgot{
+    font-size: 19px;
+    color: #181717;
+    font-family: 'Playfair Display', serif;
+}
+
+.forgot a{
+    margin: 9px 0px 0px -110px;
+    text-decoration: none;
+    color:#3e2922;
+}
+.btn{
+    font-family: 'Lora', serif;
+    font-size: 22px;
+    height:34px;
+    width: 194px;
+    border:1.5px solid #E57734;
+    color:white;
+    background-color: #3e2922;
+    box-shadow: 2px 2px 2px 0 #4d001f;
+    margin: 20px 0px 10px 102px;
+}
+.btn:hover{
+    background-color:#ef7743;
+    border:2px solid #4d001f;
+    transition:1.5s;
+    border-radius:10px;
+    color:#3e2922;
+}
+.create-acc{
+    font-size: 19px;
+    color: #181717;
+    margin: 15px 0px 0px 30px;
+    font-family: 'Playfair Display', serif;
+}
+.create-acc a{
+    text-decoration: none;
+    color:#3e2922;
+}
+
+/* media query */
+@media screen and (min-width: 992px) and (max-width: 1300px){
+    .sign_heading{
+        font-size: 39px;
+        margin: 60px 0px 0px 560px;
+    }
+    .sub-log{
+      margin: 50px 0px 80px 430px;
+    }
+
+    .btn{
+        font-size: 22px;
+        height:34px;
+        width: 194px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .sign_heading{
+        font-size: 35px;
+        margin: 60px 0px 0px 400px;
+    }
+    .sub-log{
+      margin: 50px 0px 80px 250px;
+    }
+
+    .btn{
+        font-size: 20px;
+        height: 32px;
+        width: 170px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 767px){
+    .sign_heading{
+        font-size: 32px;
+        margin: 60px 0px 0px 280px;
+    }
+    .sub-log{
+      margin: 50px 0px 80px 150px;
+      width: 350px;
+      height: 470px;
+    }
+
+    .login-img{
+        height: 110px;
+        margin: 18px 0px 10px 120px;
+    }
+
+    .log-email{
+        font-size: 17px;
+        height: 38px;
+        width: 240px;
+        margin: 10px 0px 10px 50px;
+    }
+
+    .log-pass{
+        font-size: 17px;
+        height: 38px;
+        width: 240px;
+        margin: 10px 0px 10px 50px;
+    }
+
+    .forgot{
+        font-size: 17px;
+    }
+    
+    .create-acc{
+        font-size: 17px;
+        margin: 15px 0px 0px 10px;
+    }
+
+    .btn{
+        font-size: 18px;
+        height: 30px;
+        width: 150px;
+    }
+}
+
+@media screen and (min-width: 460px) and  (max-width: 600px){
+    .sign_heading{
+        font-size: 30px;
+        margin: 60px 0px 0px 200px;
+    }
+    .sub-log{
+      margin: 50px 0px 80px 100px;
+      width: 300px;
+      height: 430px;
+    }
+
+    .login-img{
+        height: 90px;
+        margin: 18px 0px 10px 120px;
+    }
+
+    .log-email{
+        font-size: 15px;
+        height: 33px;
+        width: 200px;
+        margin: 10px 0px 10px 50px;
+    }
+
+    .log-pass{
+        font-size: 15px;
+        height: 33px;
+        width: 200px;
+        margin: 10px 0px 10px 50px;
+    }
+
+    .forgot{
+        font-size: 16px;
+    }
+
+    .forgot a{
+        margin: 9px 0px 0px -80px;
+    }
+    
+    .create-acc{
+        font-size: 16px;
+        margin: 15px 0px 0px 10px;
+    }
+
+    .btn{
+        font-size: 18px;
+        height: 28px;
+        width: 130px;
+        margin: 15px 0px 10px 100px;
+    }
+}
+
+@media screen and (max-width: 459px){
+    .sign_heading{
+        font-size: 28px;
+        margin: 60px 0px 0px 170px;
+    }
+    .sub-log{
+      margin: 50px 0px 80px 65px;
+      width: 300px;
+      height: 425px;
+    }
+
+    .login-img{
+        height: 85px;
+        margin: 18px 0px 10px 120px;
+    }
+
+    .log-email{
+        font-size: 15px;
+        height: 33px;
+        width: 200px;
+        margin: 10px 0px 10px 50px;
+    }
+
+    .log-pass{
+        font-size: 15px;
+        height: 33px;
+        width: 200px;
+        margin: 10px 0px 10px 50px;
+    }
+
+    .forgot{
+        font-size: 15px;
+    }
+
+    .forgot a{
+        margin: 9px 0px 0px -80px;
+    }
+    
+    .create-acc{
+        font-size: 15px;
+        margin: 15px 0px 0px 10px;
+    }
+
+
+    .btn{
+        font-size: 20px;
+        height: 32px;
+        width: 110px;
+        margin: 15px 0px 10px 100px;
+    }
+}
