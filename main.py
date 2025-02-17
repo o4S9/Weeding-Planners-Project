@@ -16,8 +16,8 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route('/about_page')
-def about_page():
+@app.route('/aboutpage')
+def aboutpage():
     return render_template('about_page.html')
 
 @app.route('/contactus')
